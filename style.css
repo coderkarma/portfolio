@@ -1,0 +1,44 @@
+
+
+border {
+    background-color: #fefefe;
+    background-size: auto;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(189, 179, 179);
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(228, 65, 24);
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 110px;
+    text-align: center;
+}
+
+.small-text {
+    font-size: 14px;
+    text-align: center;
+}
