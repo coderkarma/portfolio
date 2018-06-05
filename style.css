@@ -1,11 +1,15 @@
 
+body {
+    padding: 0;
+    margin: 0;
+}
 
 border {
     background-color: #fefefe;
     background-size: auto;
    
 }
-
+/*   lists  */
 ul {
     list-style-type: none;
     margin: 0;
@@ -36,9 +40,52 @@ img {
 h1 {
     font-size: 110px;
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: #3a4454;
 }
 
 .small-text {
     font-size: 14px;
     text-align: center;
 }
+
+a:hover {
+    color: white;
+}
+/* -------- */
+h5#test {
+    position: relative;
+    bottom: 110px;
+    font-size: 30px;
+    color: blue;
+}
+
+.container {
+    background: green;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+ h2 {
+    font-size: 50px;
+    color: rgb(8, 7, 8);
+    text-align: center;
+    
+ }
+
+ .section-about {
+     background-color: #fc6055;
+     font-size: 30px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 5%;
+     line-height: 1.5;
+ }
+
+ .background-text h3 {
+       text-align: center;
+
+ }
+ .background-text {
+     background-image: url("background-image.png");
+     height: 670px;
+ }
