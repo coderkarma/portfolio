@@ -43,6 +43,13 @@ h1 {
     font-family: 'Noto Sans', sans-serif;
     color: #3a4454;
 }
+h5 {
+    font-size: 50px;
+    text-align: center;
+    color: #fc6055;
+}
+
+
 
 .small-text {
     font-size: 14px;
@@ -57,7 +64,8 @@ h5#test {
     position: relative;
     bottom: 110px;
     font-size: 30px;
-    color: blue;
+    color: rgba(226, 28, 28, 0.63);
+    font-family: cursive;
 }
 
 .container {
@@ -76,16 +84,73 @@ h5#test {
  .section-about {
      background-color: #fc6055;
      font-size: 30px;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     padding: 5%;
+     font-family: cursive;
+     padding-top: 2%;
+     padding-bottom: 4%;
      line-height: 1.5;
  }
 
  .background-text h3 {
-       text-align: center;
+       text-align: left;
+       font-size: 75px;
+       color: #b8b6b6;
+       font-family: monospace;
 
  }
  .background-text {
      background-image: url("background-image.png");
-     height: 670px;
+     height: 678px;
+     padding: 10px;
+     background-size: cover;
+    
  }
+
+ .icons {
+    font-size: 110px;;
+    color: peru;
+    position: relative;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+ .section-skills  {
+      font-size: 30px;
+      text-align: center;
+      font-family: cursive;
+      text-align: center;
+      padding-bottom: 80px;
+      
+ }
+
+ #skills-icons {
+     background: white;
+     align-items: center;
+     padding: 15px;
+ }
+
+ 
+
+ .section-projects {
+     background-image: url("copy.jpg");
+     background-size: cover;
+     height: 600px;
+     padding-top: 1%;
+     font-family: cursive;
+     font-size: 50%;
+ }
+
+.section-projects p {
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+}
+
+/*  Animation */
+
