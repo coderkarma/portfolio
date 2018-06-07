@@ -47,8 +47,9 @@ h5 {
     font-size: 50px;
     text-align: center;
     color: #fc6055;
+    margin-top:5px;
+    
 }
-
 
 
 .small-text {
@@ -65,7 +66,7 @@ h5#test {
     bottom: 110px;
     font-size: 30px;
     color: rgba(226, 28, 28, 0.63);
-    font-family: cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container {
@@ -84,7 +85,7 @@ h5#test {
  .section-about {
      background-color: #fc6055;
      font-size: 30px;
-     font-family: cursive;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      padding-top: 2%;
      padding-bottom: 4%;
      line-height: 1.5;
@@ -117,7 +118,7 @@ h5#test {
  .section-skills  {
       font-size: 30px;
       text-align: center;
-      font-family: cursive;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       text-align: center;
       padding-bottom: 80px;
       
@@ -136,7 +137,7 @@ h5#test {
      background-size: cover;
      height: 600px;
      padding-top: 1%;
-     font-family: cursive;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      font-size: 50%;
  }
 
@@ -152,5 +153,82 @@ a:hover {
   background-color: transparent;
 }
 
+
+.section-contacts h4 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1fr;
+
+}
+
+.col-2 #name {
+    font-size: 1%;
+    margin-top: 10%;
+    font-size: 20px;
+
+}
+
+.col-2 #email {
+     margin-top: 2%;
+     text-align: left;
+     margin-bottom: 2%;
+     font-size: 20px;
+   
+}
+
+.col-2 #message {
+    color:blue;
+    padding: 8%;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+.col-2 message {
+    font: 10px;
+    text-align: start;
+}
+
+.col-1 p {
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.col-2 levle {
+    font-size: 20px;
+}
+
+
+.linkedin-icon {
+   font-size: 40px;
+   color: #4c6ef5;
+   padding-left: 70px;
+   vertical-align: 80px;
+}
+
+.linkedin-icon:hover{
+    color: red;
+}
+
+.links {
+    padding-left: 0px;
+    vertical-align: 40px;
+}
+
+#author {
+    padding-top:5%;
+    font-size:20px;
+    text-align: center;
+
+}
 /*  Animation */
 
